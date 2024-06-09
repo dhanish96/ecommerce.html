@@ -1,0 +1,152 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+}
+#profile{
+    border-radius:50px;
+    
+}
+header{
+    scrollbar-darkshadow-color:10px;
+}
+#body{
+    height: 1000px;
+}
+#nav{
+    background-color:rgb(0, 0, 0)
+}
+#heading{
+    color: aqua;
+}
+#mynavbar a{
+    margin-bottom: 0px;
+    color: rgb(22, 247, 255);
+}
+#mynavbar a:hover{
+    border-bottom: 3px solid aqua;
+    display: inline-block;
+    position: relative;
+    bottom:10px;
+}
+h1{
+    
+}
+@keyframes example{
+    0%  {background-color: red; left:0px; top:0px;}
+    25% {background-color: yellow; left:200px; top:0px;}
+    50% {background-color: blue; left:200px; top:200px;}
+    75% {background-color: green; left:0px; top:200px;}
+    100% {background-color: red; left:0px; top:0px;}
+}
+#signbtn {
+    background-color: rgb(59, 242, 255);
+    border-radius: 5px;
+    color: black;
+    position ;
+    animation-name: example;
+    animation-duration: 4s;
+}
+section {
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: row;
+     justify-content:center;
+    align-items:center;
+
+}
+#home{
+    display: flex;
+    flex-direction:row;
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url("/html/img/bg-image-2.jpeg");
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+#home h1{
+    display: inline-block;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc;
+
+}
+#home .input-group{
+    color: black;
+    width: 3%;
+    height: 45px;
+    
+} 
+#home input{
+    width: 100px;
+    background-color: rgb(27, 219, 245);
+   color: black;
+}
+#home button{
+    color: rgb(0, 0, 0);
+    background-color:rgb(30, 221, 255);
+    height:38px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: solid black ;
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan;
+       transition: .2s;         
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+     0 0 100px cyan, 0 0 200px cyan ;
+     transition: .2s;
+}
+#about {
+    background: linear-gradient(to right,#01ccff,#00e1ff 100%);
+}
+#about h1{
+    height: 800;
+    width: 50%;
+    color: white;
+}
+#about p{
+    color: white;
+}
+#product{
+    background: #e5e5e5;
+}
+#product img{
+    width:150px !important ;
+    height: 200 !important;
+}
+.card{
+    width: 250;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important; 
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+               inset -4px -4px 10px white;
+               transition: .2s;
+}
+#dhanish{
+    display: flex;
+    flex-direction: row;
+    width: %;
+}
